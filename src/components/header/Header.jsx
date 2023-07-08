@@ -17,7 +17,7 @@ const Header = () => {
       </header>
       <figure>
         <img
-          src='/public/desktop-image-small.jpg'
+          src='desktop-image-small.jpg'
           alt='Desktop setup with accessories'
         />
       </figure>
