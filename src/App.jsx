@@ -16,7 +16,10 @@ function App() {
         <button>View Projects</button>
       </header>
       <figure>
-        <img src='/public/desktop-image-small.jpg' alt='desktop image' />
+        <img
+          src='/public/desktop-image-small.jpg'
+          alt='Desktop setup with accessories'
+        />
       </figure>
     </main>
   );
