@@ -1,5 +1,5 @@
-import '../sass/main.scss';
-import { getDate } from '../lib/getDate';
+import './header.scss';
+import { getDate } from '../../lib/getDate';
 
 const Header = () => {
   const date = getDate();
