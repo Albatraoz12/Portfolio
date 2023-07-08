@@ -5,8 +5,10 @@ import './sass/main.scss';
 function App() {
   return (
     <>
-      <Header />
-      <About />
+      <main>
+        <Header />
+        <About />
+      </main>
     </>
   );
 }

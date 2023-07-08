@@ -4,7 +4,7 @@ import { getDate } from '../../lib/getDate';
 const Header = () => {
   const date = getDate();
   return (
-    <main>
+    <>
       <header>
         <span>{date}</span>
         <h1>Portfolio</h1>
@@ -21,7 +21,7 @@ const Header = () => {
           alt='Desktop setup with accessories'
         />
       </figure>
-    </main>
+    </>
   );
 };
 
