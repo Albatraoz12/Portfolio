@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Zilla+Slab:wght@300;600&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zilla Slab', serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  border: 1px solid red;
+  width: 100%;
+  background-color: black;
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: green;
+    span {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.7em;
+    }
+    h1 {
+      font-size: 58px;
+      font-family: 'Silkscreen', cursive;
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+      line-height: 1.4em;
+      padding-inline: 1rem;
+      text-transform: uppercase;
+    }
+  }
+}
