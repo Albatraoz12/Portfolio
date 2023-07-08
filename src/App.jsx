@@ -13,7 +13,7 @@ function App() {
           innovation meets creativity. Dive into the incredible projects and
           experience the talents of a true coding wizard.
         </p>
-        <button>VIEW PROJECTS</button>
+        <button>View Projects</button>
       </header>
     </main>
   );
