@@ -1,0 +1,16 @@
+@import '../../sass/variables.scss';
+
+section {
+  background-color: #d8f3dc;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  text-align: start;
+
+  h2 {
+    font-size: 48px;
+    color: $header-secondary;
+    font-family: 'Silkscreen', cursive;
+  }
+}
