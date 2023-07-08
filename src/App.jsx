@@ -1,4 +1,5 @@
-import Header from './components/Header';
+import Header from './components/header/Header';
+import './sass/main.scss';
 
 function App() {
   return <Header />;

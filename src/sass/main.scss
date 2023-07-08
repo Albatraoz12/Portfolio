@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Zilla+Slab:wght@300;600&display=swap');
-
-$bg-color: #000000;
-$header-color: #b7e4c7;
+@import 'variables.scss';
 
 *,
 *::after,
@@ -24,44 +22,4 @@ main {
   gap: 50px;
   width: 100%;
   background-color: $bg-color;
-
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    color: $header-color;
-
-    span {
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 0.7em;
-    }
-
-    h1 {
-      font-size: 58px;
-      font-family: 'Silkscreen', cursive;
-    }
-
-    p {
-      font-size: 20px;
-      text-align: center;
-      line-height: 1.4em;
-      padding-inline: 1rem;
-      text-transform: uppercase;
-    }
-
-    button {
-      text-transform: uppercase;
-      padding: 10px 15px;
-      background-color: $header-color;
-      outline: none;
-      border: none;
-      border-radius: 10px;
-    }
-  }
-  figure img {
-    max-width: 90%;
-    margin-bottom: 1rem;
-  }
 }
