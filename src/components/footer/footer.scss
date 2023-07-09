@@ -13,9 +13,15 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
+
     .icon {
       height: 32px;
       width: 32px;
+      transition: transform 1s ease-in-out;
+    }
+
+    .icon:hover {
+      transform: rotate(360deg);
     }
   }
 }
