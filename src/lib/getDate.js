@@ -7,6 +7,6 @@ export const getDate = () => {
     year: 'numeric',
   };
   const formattedDate = d.toLocaleString('en-EN', options);
-  console.log(formattedDate);
+
   return formattedDate;
 };
