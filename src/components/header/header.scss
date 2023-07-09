@@ -18,7 +18,7 @@ header {
     font-size: 58px;
     font-family: 'Silkscreen', cursive;
     border-right: 5px solid;
-    width: 90%;
+    width: 95%;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(9), cursor 0.5s step-end infinite alternate;
@@ -30,6 +30,7 @@ header {
     line-height: 1.4em;
     padding-inline: 1rem;
     text-transform: uppercase;
+    max-width: 600px;
   }
 
   button {
@@ -42,9 +43,12 @@ header {
   }
 }
 figure img {
-  max-width: 90%;
   margin-bottom: 1rem;
   filter: grayscale(100%);
+  border-radius: 10px;
+  height: 300px;
+  width: 350px;
+  object-fit: cover;
 }
 
 @keyframes cursor {
@@ -56,5 +60,47 @@ figure img {
 @keyframes typing {
   from {
     width: 0;
+  }
+}
+
+@include tablet {
+  header {
+    span {
+      font-size: 20px;
+      letter-spacing: 1.5rem;
+    }
+    h1 {
+      font-size: 118px;
+      width: 95%;
+    }
+    p {
+      margin-inline: 5rem;
+    }
+  }
+
+  figure {
+    img {
+      height: 600px;
+      width: 710px;
+    }
+  }
+}
+
+@include desktop {
+  header {
+    span {
+      font-size: 13px;
+      letter-spacing: 3.5em;
+      width: 100%;
+    }
+    h1 {
+      font-size: 165px;
+      width: 100%;
+    }
+  }
+
+  figure img {
+    height: 600px;
+    width: 940px;
   }
 }

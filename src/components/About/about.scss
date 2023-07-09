@@ -1,16 +1,60 @@
 @import '../../sass/variables.scss';
 
 section {
+  width: 100%;
   background-color: #d8f3dc;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 2rem 1rem;
-  text-align: start;
+  padding: 2rem 0;
+  .about-container {
+    h2 {
+      font-size: 48px;
+      color: $header-secondary;
+      font-family: 'Silkscreen', cursive;
+      text-align: start;
+      margin: 1.5rem;
+    }
 
-  h2 {
-    font-size: 48px;
-    color: $header-secondary;
-    font-family: 'Silkscreen', cursive;
+    .about-wrapper {
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      p {
+        text-align: start;
+        font-size: 20px;
+        line-height: 1.5em;
+        margin: 1.5rem;
+      }
+    }
+  }
+}
+
+@include tablet {
+  section {
+    width: 100%;
+    padding-inline: 2rem;
+  }
+}
+
+@include desktop {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    text-align: start;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    h2 {
+      margin: 0 !important;
+    }
+    .about-wrapper {
+      max-width: 600px;
+
+      p {
+        margin: 0 !important;
+      }
+    }
   }
 }
