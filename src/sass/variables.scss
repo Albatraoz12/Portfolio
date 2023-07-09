@@ -4,6 +4,18 @@ $bg-color: #000000;
 $bg-secoundary: #d8f3dc;
 
 $breakpoints: (
-  'tablet': 768,
+  'tablet': 760,
   'desktop': 1024px,
 );
+
+@mixin tablet {
+  @media (min-width: map-get($breakpoints, 'tablet')) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: map-get($breakpoints, 'desktop')) {
+    @content;
+  }
+}
