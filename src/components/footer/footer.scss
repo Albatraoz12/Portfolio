@@ -12,9 +12,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     .icon {
-      height: 35px;
-      width: 35px;
+      height: 32px;
+      width: 32px;
     }
   }
 }
