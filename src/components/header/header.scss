@@ -87,9 +87,16 @@ figure img {
 }
 
 @include desktop {
-  header h1 {
-    font-size: 165px;
-    width: 100%;
+  header {
+    span {
+      font-size: 13px;
+      letter-spacing: 3.5em;
+      width: 100%;
+    }
+    h1 {
+      font-size: 165px;
+      width: 100%;
+    }
   }
 
   figure img {
