@@ -14,3 +14,14 @@ section {
     font-family: 'Silkscreen', cursive;
   }
 }
+
+@include tablet {
+  section {
+    width: 100%;
+    padding-inline: 2rem;
+    p {
+      width: 490px;
+      line-height: 1.5em;
+    }
+  }
+}
