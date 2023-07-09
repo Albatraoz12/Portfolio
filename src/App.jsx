@@ -1,5 +1,4 @@
 import About from './components/About/About';
-import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import './sass/main.scss';
 
@@ -9,7 +8,6 @@ function App() {
       <main>
         <Header />
         <About />
-        <Footer />
       </main>
     </>
   );
