@@ -7,12 +7,15 @@ const Header = () => {
     <>
       <header>
         <span>{date}</span>
-        <h1>Portfolio</h1>
+        <h1>Dimosthenis Emmanouil</h1>
         <p>
-          Welcome to the world of a brilliant full-stack web developer, where
-          innovation meets creativity. Dive into the incredible projects and
-          experience the talents of a true coding wizard.
+          Welcome to my portfolio! Step into the world of a passionate junior
+          web developer, where creativity and problem-solving collide. With a
+          fresh perspective and a hunger for knowledge, I&apos;m here to bring
+          captivating user experiences to life and tackle complex challenges
+          head-on.
         </p>
+
         <button>View Projects</button>
       </header>
       <figure>
