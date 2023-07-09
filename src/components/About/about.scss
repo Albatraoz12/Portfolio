@@ -13,23 +13,23 @@ section {
     color: $header-secondary;
     font-family: 'Silkscreen', cursive;
   }
+
+  .about-wrapper {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    p {
+      font-size: 20px;
+      line-height: 1.5em;
+    }
+  }
 }
 
 @include tablet {
   section {
     width: 100%;
     padding-inline: 2rem;
-
-    .about-wrapper {
-      max-width: 600px;
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-
-      p {
-        font-size: 20px;
-        line-height: 1.5em;
-      }
-    }
   }
 }
