@@ -58,3 +58,25 @@ figure img {
     width: 0;
   }
 }
+
+@include tablet {
+  header {
+    span {
+      font-size: 20px;
+      letter-spacing: 1.5rem;
+    }
+    h1 {
+      font-size: 118px;
+      width: 95%;
+    }
+    p {
+      margin-inline: 5rem;
+    }
+  }
+
+  figure {
+    img {
+      max-width: 100%;
+    }
+  }
+}
