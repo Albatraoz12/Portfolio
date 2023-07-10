@@ -22,12 +22,30 @@ const Projects = () => {
               <div className='project-links'>
                 {project.status === 'Online' ? (
                   <>
-                    <a href={project.githubLink}>Code</a>
-                    <a href={project.websiteLink}>Live</a>
+                    <a
+                      href={project.githubLink}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Code
+                    </a>
+                    <a
+                      href={project.websiteLink}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Live
+                    </a>
                   </>
                 ) : (
                   <>
-                    <a href={project.githubLink}>Code</a>
+                    <a
+                      href={project.githubLink}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Code
+                    </a>
                   </>
                 )}
               </div>
