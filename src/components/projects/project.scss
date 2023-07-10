@@ -58,6 +58,8 @@
 
 @include desktop {
   .project-header {
-    padding-inline: 1rem;
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: 0 auto !important;
   }
 }
