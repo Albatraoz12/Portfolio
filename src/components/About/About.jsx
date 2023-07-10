@@ -1,5 +1,4 @@
 import './about.scss';
-import Footer from '../footer/Footer';
 
 const About = () => {
   return (
@@ -32,7 +31,6 @@ const About = () => {
             </p>
           </div>
         </div>
-        <Footer />
       </section>
     </>
   );
