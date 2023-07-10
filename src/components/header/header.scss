@@ -2,6 +2,7 @@
 
 .hero-banner {
   width: 100%;
+
   .hero-header {
     display: flex;
     flex-direction: column;
@@ -98,22 +99,24 @@
 }
 
 @include desktop {
-  .hero-header {
-    .hero-date {
-      font-size: 13px;
-      letter-spacing: 3.5em;
-      width: 100%;
+  .hero-banner {
+    .hero-header {
+      .hero-date {
+        font-size: 13px;
+        letter-spacing: 3.5em;
+        width: 100%;
+      }
+      .hero-title {
+        font-size: 68px;
+        width: 1000px;
+      }
     }
-    .hero-title {
-      font-size: 68px;
-      width: 80% !important;
-    }
-  }
 
-  .hero-figure {
-    .hero-image {
-      height: 600px;
-      width: 940px;
+    .hero-figure {
+      .hero-image {
+        height: 600px;
+        width: 940px;
+      }
     }
   }
 }
