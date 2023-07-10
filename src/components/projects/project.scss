@@ -52,40 +52,46 @@
 }
 
 @include tablet {
-  .project-header {
-    padding-inline: 2rem;
-  }
-  .project-container {
-    padding: 2rem !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    .project-card {
-      .card-img {
-        width: 100% !important;
-      }
-      .card-description,
-      .card-header {
-        padding-inline: 0 !important;
-      }
+  .project-section {
+    .project-header {
+      padding-inline: 2rem;
+    }
+    .project-container {
+      padding: 2rem !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+      .project-card {
+        .card-img {
+          width: 100% !important;
+        }
+        .card-description,
+        .card-header {
+          padding-inline: 0 !important;
+        }
 
-      .card-description {
-        height: 270px !important;
-      }
+        .card-description {
+          height: 270px;
+        }
 
-      .project-links {
-        justify-content: space-evenly !important;
+        .project-links {
+          justify-content: space-evenly !important;
+        }
       }
     }
   }
 }
 
 @include desktop {
-  .project-header {
-    padding: 2rem 1rem;
-    max-width: 1000px;
-    margin: 0 auto !important;
-  }
+  .project-section {
+    .project-card {
+      .project-header {
+        padding: 2rem 1rem;
+        max-width: 1000px;
+        margin: 0 auto !important;
+      }
 
-  .card-description {
-    height: 190px;
+      .card-description {
+        height: 190px !important;
+      }
+    }
   }
 }
