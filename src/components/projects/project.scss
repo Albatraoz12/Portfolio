@@ -33,6 +33,14 @@
         padding-inline: 3rem;
         margin-top: 0.5rem;
       }
+
+      .project-links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+        font-size: 20px;
+      }
     }
   }
 }
@@ -51,6 +59,10 @@
       .card-description,
       .card-header {
         padding-inline: 0 !important;
+      }
+
+      .project-links {
+        justify-content: space-between !important;
       }
     }
   }
