@@ -11,7 +11,7 @@ const Projects = () => {
           <div className='project-card' key={index}>
             <img className='card-img' src={project.image} alt={project.title} />
             <h3 className='card-header'>{project.title}</h3>
-            <p className='card-description'>{project.status}</p>
+            <p className='card-description'>{project.description}</p>
           </div>
         ))}
       </div>
