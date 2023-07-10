@@ -1,3 +1,5 @@
+@import '../../sass/variables.scss';
+
 .project-section {
   height: auto;
   .project-container {
@@ -9,6 +11,18 @@
     .project-card {
       .card-img {
         width: 350px;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .project-container {
+    padding: 1.5rem !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    .project-card {
+      .card-img {
+        width: 210px !important;
       }
     }
   }
