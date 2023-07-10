@@ -4,10 +4,16 @@ $bg-color: #000000;
 $bg-secoundary: #d8f3dc;
 
 $breakpoints: (
+  'm': 375px,
   'tablet': 760px,
   'desktop': 1024px,
 );
 
+@mixin m {
+  @media (max-width: map-get($breakpoints, 'm')) {
+    @content;
+  }
+}
 @mixin tablet {
   @media (min-width: map-get($breakpoints, 'tablet')) {
     @content;
