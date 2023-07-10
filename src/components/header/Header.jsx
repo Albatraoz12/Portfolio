@@ -15,7 +15,9 @@ const Header = () => {
           captivating user experiences to life and tackle complex challenges
           head-on.
         </p>
-        <button className='hero-button'>View Projects</button>
+        <a href='#project-section' className='hero-button'>
+          View Projects
+        </a>
       </header>
       <figure className='hero-figure'>
         <img
