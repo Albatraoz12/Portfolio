@@ -32,7 +32,9 @@ section {
 @include tablet {
   section {
     width: 100%;
-    padding-inline: 2rem;
+    .about-container {
+      padding-inline: 2rem;
+    }
   }
 }
 
