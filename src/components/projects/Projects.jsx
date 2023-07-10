@@ -26,15 +26,17 @@ const Projects = () => {
                       href={project.githubLink}
                       target='_blank'
                       rel='noreferrer'
+                      className='link'
                     >
-                      Code
+                      Code &#8594;
                     </a>
                     <a
                       href={project.websiteLink}
                       target='_blank'
                       rel='noreferrer'
+                      className='link'
                     >
-                      Live
+                      Live &#8594;
                     </a>
                   </>
                 ) : (
@@ -43,8 +45,9 @@ const Projects = () => {
                       href={project.githubLink}
                       target='_blank'
                       rel='noreferrer'
+                      className='link'
                     >
-                      Code
+                      Code &#8594;
                     </a>
                   </>
                 )}
