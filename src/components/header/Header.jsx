@@ -4,27 +4,27 @@ import { getDate } from '../../lib/getDate';
 const Header = () => {
   const date = getDate();
   return (
-    <>
-      <header>
-        <span>{date}</span>
-        <h1>Dimosthenis Emmanouil</h1>
-        <p>
+    <div className='hero-banner'>
+      <header className='hero-header'>
+        <span className='hero-date'>{date}</span>
+        <h1 className='hero-title'>Dimosthenis Emmanouil</h1>
+        <p className='hero-description'>
           Welcome to my portfolio! Step into the world of a passionate junior
           web developer, where creativity and problem-solving collide. With a
           fresh perspective and a hunger for knowledge, I&apos;m here to bring
           captivating user experiences to life and tackle complex challenges
           head-on.
         </p>
-
-        <button>View Projects</button>
+        <button className='hero-button'>View Projects</button>
       </header>
-      <figure>
+      <figure className='hero-figure'>
         <img
           src='desktop-image-small.jpg'
           alt='Desktop setup with accessories'
+          className='hero-image'
         />
       </figure>
-    </>
+    </div>
   );
 };
 

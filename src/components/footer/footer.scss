@@ -13,6 +13,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin: 3rem auto 1rem auto;
 
     .icon {
       height: 32px;
@@ -21,11 +22,24 @@ footer {
     }
 
     .icon:hover {
+      cursor: pointer;
       transform: rotate(360deg);
     }
   }
 
   h3 {
     text-align: center;
+  }
+}
+
+@include tablet {
+  footer {
+    padding: 4rem 0;
+    .icon-container {
+      .icon {
+        width: 45px;
+        height: 45px;
+      }
+    }
   }
 }
