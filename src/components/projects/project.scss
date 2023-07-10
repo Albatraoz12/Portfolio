@@ -82,13 +82,12 @@
 
 @include desktop {
   .project-section {
+    .project-header {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto !important;
+    }
     .project-card {
-      .project-header {
-        padding: 2rem 1rem;
-        max-width: 1000px;
-        margin: 0 auto !important;
-      }
-
       .card-description {
         height: 190px !important;
       }
