@@ -1,3 +1,4 @@
+import './project.scss';
 import { fetchProjects } from '../../lib/getDate';
 
 const Projects = () => {
