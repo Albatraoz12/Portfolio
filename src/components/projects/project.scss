@@ -2,6 +2,14 @@
 
 .project-section {
   height: auto;
+  .project-header {
+    font-size: 48px;
+    color: $header-secondary;
+    font-family: 'Silkscreen', cursive;
+    text-align: start;
+    margin: 1.5rem;
+    margin-bottom: 3rem;
+  }
   .project-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -11,6 +19,7 @@
     gap: 40px;
     width: 100%;
     max-width: 1000px;
+
     .project-card {
       .card-img {
         width: 350px;
@@ -29,8 +38,11 @@
 }
 
 @include tablet {
+  .project-header {
+    padding-inline: 2rem;
+  }
   .project-container {
-    padding: 1.5rem !important;
+    padding: 2rem !important;
     grid-template-columns: repeat(3, 1fr) !important;
     .project-card {
       .card-img {
@@ -41,5 +53,11 @@
         padding-inline: 0 !important;
       }
     }
+  }
+}
+
+@include desktop {
+  .project-header {
+    padding-inline: 1rem;
   }
 }
