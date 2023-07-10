@@ -1,12 +1,18 @@
+import { fetchProjects } from '../../lib/getDate';
+
 const Projects = () => {
+  const projects = fetchProjects();
+
   return (
     <section className='project-section'>
       <div className='project-container'>
-        <div className='project-card'>
-          <img src='' alt='' />
-          <h3></h3>
-          <p></p>
-        </div>
+        {projects.map((project, index) => (
+          <div className='project-card' key={index}>
+            <img className='card-img' src={project.image} alt={project.title} />
+            <h3 className='card-header'>{project.title}</h3>
+            <p className='card-description'>{project.status}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
