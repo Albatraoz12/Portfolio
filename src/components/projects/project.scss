@@ -23,6 +23,8 @@
     .project-card {
       .card-img {
         width: 210px !important;
+        height: 250px;
+        object-fit: cover;
       }
     }
   }

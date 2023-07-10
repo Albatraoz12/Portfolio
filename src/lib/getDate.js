@@ -2,7 +2,7 @@
 const projects = [
   {
     title: 'Weather App',
-    image: 'WeatherApp-ss.png',
+    image: 'DTrain-sc.png',
     description: 'A website to display the wather',
     status: 'Online',
     websiteLink: 'https://stirring-profiterole-13cd77.netlify.app/',
@@ -10,15 +10,7 @@ const projects = [
   },
   {
     title: 'Weather App',
-    image: 'WeatherApp-ss.png',
-    status: 'Online',
-    description: 'A website to display the wather',
-    websiteLink: 'https://stirring-profiterole-13cd77.netlify.app/',
-    githubLink: 'https://github.com/Albatraoz12/Weather-App',
-  },
-  {
-    title: 'Weather App',
-    image: 'WeatherApp-ss.png',
+    image: 'BookOwl-ss.png',
     status: 'Online',
     description: 'A website to display the wather',
     websiteLink: 'https://stirring-profiterole-13cd77.netlify.app/',
@@ -27,6 +19,14 @@ const projects = [
   {
     title: 'Weather App',
     image: 'WeatherApp-ss.png',
+    status: 'Online',
+    description: 'A website to display the wather',
+    websiteLink: 'https://stirring-profiterole-13cd77.netlify.app/',
+    githubLink: 'https://github.com/Albatraoz12/Weather-App',
+  },
+  {
+    title: 'Weather App',
+    image: 'Recipie-ss.png',
     status: 'Online',
     description: 'A website to display the wather',
     websiteLink: 'https://stirring-profiterole-13cd77.netlify.app/',
