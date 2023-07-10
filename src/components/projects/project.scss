@@ -11,6 +11,15 @@
     .project-card {
       .card-img {
         width: 350px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      .card-description,
+      .card-header {
+        text-align: start;
+        padding-inline: 1rem;
+        margin-top: 0.5rem;
       }
     }
   }
@@ -23,8 +32,6 @@
     .project-card {
       .card-img {
         width: 210px !important;
-        height: 250px;
-        object-fit: cover;
       }
     }
   }
