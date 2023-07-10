@@ -8,8 +8,8 @@ function App() {
     <>
       <main>
         <Header />
-        <Projects />
         <About />
+        <Projects />
       </main>
     </>
   );
