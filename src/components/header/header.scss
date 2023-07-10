@@ -103,7 +103,7 @@
     .hero-header {
       .hero-date {
         font-size: 13px;
-        letter-spacing: 3.5em;
+        letter-spacing: 3em;
         width: 100%;
       }
       .hero-title {
@@ -116,6 +116,21 @@
       .hero-image {
         height: 600px;
         width: 940px;
+      }
+    }
+  }
+}
+
+@include m {
+  .hero-banner {
+    .hero-header {
+      .hero-date {
+        font-size: 9px;
+        letter-spacing: 1.3em;
+        text-transform: lowercase;
+      }
+      .hero-title {
+        font-size: 21px;
       }
     }
   }
