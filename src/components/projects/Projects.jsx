@@ -20,8 +20,16 @@ const Projects = () => {
               <h3 className='card-header'>{project.title}</h3>
               <p className='card-description'>{project.description}</p>
               <div className='project-links'>
-                <a href={project.githubLink}>Code</a>
-                <a href={project.websiteLink}>Live</a>
+                {project.status === 'Online' ? (
+                  <>
+                    <a href={project.githubLink}>Code</a>
+                    <a href={project.websiteLink}>Live</a>
+                  </>
+                ) : (
+                  <>
+                    <a href={project.githubLink}>Code</a>
+                  </>
+                )}
               </div>
             </div>
           ))}
