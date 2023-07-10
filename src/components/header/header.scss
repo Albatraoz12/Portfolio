@@ -18,10 +18,10 @@ header {
     font-size: 24px;
     font-family: 'Silkscreen', cursive;
     border-right: 5px solid;
-    width: 95%;
+    width: auto;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(9), cursor 0.5s step-end infinite alternate;
+    animation: typing 4s steps(23), cursor 0.5s step-end infinite alternate;
   }
 
   p {
@@ -75,7 +75,6 @@ figure {
     }
     h1 {
       font-size: 50px;
-      width: 95%;
     }
     p {
       margin-inline: 5rem;
@@ -99,7 +98,6 @@ figure {
     }
     h1 {
       font-size: 68px;
-      width: 100%;
     }
   }
 
