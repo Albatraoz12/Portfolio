@@ -1,58 +1,62 @@
 @import '../../sass/variables.scss';
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  color: $header-color;
-  padding-top: 1rem;
+.hero-banner {
+  width: 100%;
+  .hero-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: $header-color;
+    padding-top: 1rem;
 
-  span {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1.2em;
+    .hero-date {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.2em;
+    }
+
+    .hero-title {
+      font-size: 24px;
+      font-family: 'Silkscreen', cursive;
+      border-right: 5px solid;
+      width: 85%;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 4s steps(24), cursor 0.5s step-end infinite alternate;
+    }
+
+    .hero-description {
+      font-size: 15px;
+      text-align: center;
+      line-height: 1.4em;
+      padding-inline: 1rem;
+      text-transform: uppercase;
+      max-width: 600px;
+    }
+
+    .hero-button {
+      text-transform: uppercase;
+      padding: 10px 15px;
+      background-color: $header-color;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 3rem;
+      cursor: pointer;
+    }
   }
 
-  h1 {
-    font-size: 24px;
-    font-family: 'Silkscreen', cursive;
-    border-right: 5px solid;
-    width: auto;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 4s steps(23), cursor 0.5s step-end infinite alternate;
-  }
-
-  p {
-    font-size: 15px;
-    text-align: center;
-    line-height: 1.4em;
-    padding-inline: 1rem;
-    text-transform: uppercase;
-    max-width: 600px;
-  }
-
-  button {
-    text-transform: uppercase;
-    padding: 10px 15px;
-    background-color: $header-color;
-    outline: none;
-    border: none;
-    border-radius: 10px;
+  .hero-figure {
     margin-bottom: 3rem;
-    cursor: pointer;
-  }
-}
-figure {
-  margin-bottom: 3rem;
-  img {
-    margin-bottom: 1rem;
-    filter: grayscale(100%);
-    border-radius: 10px;
-    height: 300px;
-    width: 350px;
-    object-fit: cover;
+    .hero-image {
+      margin-bottom: 1rem;
+      filter: grayscale(100%);
+      border-radius: 10px;
+      height: 300px;
+      width: 350px;
+      object-fit: cover;
+    }
   }
 }
 
@@ -69,41 +73,47 @@ figure {
 }
 
 @include tablet {
-  header {
-    span {
-      font-size: 20px;
-      letter-spacing: 1.5rem;
+  .hero-banner {
+    .hero-header {
+      .hero-date {
+        font-size: 20px;
+        letter-spacing: 1.5rem;
+      }
+      .hero-title {
+        font-size: 50px;
+        width: 95%;
+      }
+      .hero-description {
+        margin-inline: 5rem;
+      }
     }
-    h1 {
-      font-size: 50px;
-    }
-    p {
-      margin-inline: 5rem;
-    }
-  }
 
-  figure {
-    img {
-      height: 600px;
-      width: 710px;
+    .hero-figure {
+      .hero-image {
+        height: 600px;
+        width: 710px;
+      }
     }
   }
 }
 
 @include desktop {
-  header {
-    span {
+  .hero-header {
+    .hero-date {
       font-size: 13px;
       letter-spacing: 3.5em;
       width: 100%;
     }
-    h1 {
+    .hero-title {
       font-size: 68px;
+      width: 80% !important;
     }
   }
 
-  figure img {
-    height: 600px;
-    width: 940px;
+  .hero-figure {
+    .hero-image {
+      height: 600px;
+      width: 940px;
+    }
   }
 }
