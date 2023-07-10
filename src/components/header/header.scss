@@ -42,13 +42,16 @@ header {
     border-radius: 10px;
   }
 }
-figure img {
-  margin-bottom: 1rem;
-  filter: grayscale(100%);
-  border-radius: 10px;
-  height: 300px;
-  width: 350px;
-  object-fit: cover;
+figure {
+  margin-bottom: 3rem;
+  img {
+    margin-bottom: 1rem;
+    filter: grayscale(100%);
+    border-radius: 10px;
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+  }
 }
 
 @keyframes cursor {
