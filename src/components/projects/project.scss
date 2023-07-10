@@ -36,6 +36,10 @@
         margin-top: 0.5rem;
       }
 
+      .card-description {
+        height: 190px;
+      }
+
       .project-links {
         display: flex;
         justify-content: space-around;
@@ -63,6 +67,10 @@
         padding-inline: 0 !important;
       }
 
+      .card-description {
+        height: 270px !important;
+      }
+
       .project-links {
         justify-content: space-between !important;
       }
@@ -75,5 +83,9 @@
     padding: 2rem 1rem;
     max-width: 1000px;
     margin: 0 auto !important;
+  }
+
+  .card-description {
+    height: 190px;
   }
 }
