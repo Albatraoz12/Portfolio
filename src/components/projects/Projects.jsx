@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <>
-      <section className='project-section'>
+      <section className='project-section' id='project-section'>
         <h2 className='project-header'>Projects</h2>
         <div className='project-container'>
           {projects.map((project, index) => (
@@ -20,8 +20,37 @@ const Projects = () => {
               <h3 className='card-header'>{project.title}</h3>
               <p className='card-description'>{project.description}</p>
               <div className='project-links'>
-                <a href={project.githubLink}>Code</a>
-                <a href={project.websiteLink}>Live</a>
+                {project.status === 'Online' ? (
+                  <>
+                    <a
+                      href={project.githubLink}
+                      target='_blank'
+                      rel='noreferrer'
+                      className='link'
+                    >
+                      Code &#8594;
+                    </a>
+                    <a
+                      href={project.websiteLink}
+                      target='_blank'
+                      rel='noreferrer'
+                      className='link'
+                    >
+                      Live &#8594;
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    <a
+                      href={project.githubLink}
+                      target='_blank'
+                      rel='noreferrer'
+                      className='link'
+                    >
+                      Code &#8594;
+                    </a>
+                  </>
+                )}
               </div>
             </div>
           ))}
