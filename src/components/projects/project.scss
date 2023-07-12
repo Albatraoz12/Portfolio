@@ -96,6 +96,8 @@
       .project-card {
         display: flex;
         gap: 10px;
+        width: auto;
+        margin: 0;
         .card-img {
           width: 250px !important;
         }
