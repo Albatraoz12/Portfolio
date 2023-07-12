@@ -4,7 +4,7 @@ const projects = [
     title: 'Dtrain',
     image: 'DTrain-sc.png',
     description:
-      'Dtran is the ultimate training databses, users can see training exercises and save them into a list they created of just save them for later use',
+      'Dtran is the ultimate training databses, users can see training exercises and save exercises they like to keep',
     // description:
     //   'Solo project showcasing full-stack web development skills. Used SCRUM, gitflow, and kanban for agile workflow. I used MERN stack and the project has a role system. Users can register, manage exercises, search, and save to personalized lists. Admins have user management and dashboard user creation capabilities.',
     status: 'Online',
