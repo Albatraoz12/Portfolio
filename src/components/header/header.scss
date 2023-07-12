@@ -2,6 +2,7 @@
 
 .hero-banner {
   width: 100%;
+  background-color: $bg-color;
 
   .hero-header {
     display: flex;
@@ -42,7 +43,7 @@
       background-color: $header-color;
       outline: none;
       border: none;
-      border-radius: 10px;
+      border-radius: 8px;
       margin-bottom: 3rem;
       color: #000000;
       font-weight: 600;

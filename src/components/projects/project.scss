@@ -2,8 +2,10 @@
 
 .project-section {
   height: auto;
-  background-color: $bg-secoundary;
+  background-color: $bg-color;
+  color: #ffffff;
   width: 100%;
+
   .project-header {
     font-size: 48px;
     color: $header-secondary;
@@ -11,6 +13,7 @@
     text-align: start;
     margin: 1.5rem;
     margin-bottom: 3rem;
+    color: $header-color;
   }
   .project-container {
     display: grid;
@@ -18,45 +21,34 @@
     grid-auto-rows: auto;
     justify-content: center;
     margin: 0 auto;
-    gap: 40px;
+    gap: 50px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1300px;
+    padding-bottom: 5rem;
 
     .project-card {
+      width: 300px;
+      margin: 0 auto;
       .card-img {
-        width: 350px;
+        width: 300px;
         height: 250px;
         object-fit: cover;
         border-radius: 30px;
       }
+
       .card-description,
       .card-header {
         text-align: start;
-        padding-inline: 3rem;
         margin-top: 0.5rem;
       }
 
-      .card-description {
-        height: 190px;
-      }
-
-      .project-links {
+      .text-container {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 1rem;
-        font-size: 20px;
-        .link {
-          text-decoration: none;
-          background-color: $header-secondary;
-          color: $header-color;
-          padding: 0.5rem;
-          width: 120px;
-          border-radius: 20px;
-          transition: transform 0.5s ease-in-out;
-        }
-        .link:hover {
-          transform: scale(1.2);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        .btn {
+          margin-bottom: 0px;
         }
       }
     }
@@ -70,7 +62,7 @@
     }
     .project-container {
       padding: 2rem !important;
-      grid-template-columns: repeat(3, 1fr) !important;
+      grid-template-columns: repeat(2, 1fr) !important;
       .project-card {
         .card-img {
           width: 100% !important;
@@ -78,10 +70,6 @@
         .card-description,
         .card-header {
           padding-inline: 0 !important;
-        }
-
-        .card-description {
-          height: 270px;
         }
 
         .project-links {
@@ -98,13 +86,33 @@
 @include desktop {
   .project-section {
     .project-header {
-      padding: 2rem 1rem;
-      max-width: 1000px;
+      padding: 2rem 2rem;
+      max-width: 1300px;
       margin: 0 auto !important;
     }
-    .project-card {
-      .card-description {
-        height: 190px !important;
+    .project-container {
+      grid-template-columns: repeat(2, 50%) !important;
+      .project-card {
+        display: flex;
+        gap: 10px;
+        width: auto;
+        margin: 0;
+        .card-img {
+          width: 250px !important;
+        }
+        .text-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-start;
+          gap: 8px;
+          .card-header {
+            font-size: 35px;
+          }
+          .card-description {
+            font-size: 18px;
+          }
+        }
       }
     }
   }
