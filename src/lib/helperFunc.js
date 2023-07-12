@@ -48,8 +48,14 @@ const projects = [
   },
 ];
 
+// Function to fet all the projects
 export const fetchProjects = () => {
   return projects;
+};
+
+// This function will return 1 project with title
+export const getProject = (name) => {
+  return projects.filter((project) => project.title === name);
 };
 
 //Gets the current weekday, month, date and year

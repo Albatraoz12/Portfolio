@@ -1,5 +1,5 @@
+import { getDate } from '../../lib/helperFunc';
 import './header.scss';
-import { getDate } from '../../lib/getDate';
 
 const Header = () => {
   const date = getDate();

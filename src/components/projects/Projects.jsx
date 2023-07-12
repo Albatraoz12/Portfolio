@@ -1,6 +1,6 @@
 import './project.scss';
 import Footer from '../footer/Footer';
-import { fetchProjects } from '../../lib/getDate';
+import { fetchProjects } from '../../lib/helperFunc';
 
 const Projects = () => {
   const projects = fetchProjects();
