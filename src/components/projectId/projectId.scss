@@ -1,0 +1,14 @@
+@import '../../sass/variables.scss';
+
+.owerview-header {
+  background-color: $bg-color;
+  color: white;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+.project-owerview {
+  img {
+    width: 100%;
+  }
+}
