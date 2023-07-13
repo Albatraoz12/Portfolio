@@ -39,6 +39,18 @@
     width: 90%;
     border-radius: 10px;
   }
+  .overview-container {
+    padding-inline: 1rem;
+    h2 {
+      margin: 1rem auto;
+      color: $header-secondary;
+      font-size: 28px;
+      font-family: 'Silkscreen', cursive;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
 }
 
 .tools-section {
