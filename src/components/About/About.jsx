@@ -33,9 +33,9 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className='skills-container'>
         <h2>Skills</h2>
-        <div className='skills-container'>
+        <div className='pills-container'>
           <Pill obj={mySkills} />
         </div>
       </div>
