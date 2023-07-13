@@ -30,11 +30,15 @@ const ProjectId = ({ project }) => {
         </div>
       </section>
 
-      <section>
+      <section className='tools-section'>
         <h2>Tools</h2>
-        <div>
+        <div className='tools-container'>
           {project.tools &&
-            project.tools.map((tool, index) => <span key={index}>{tool}</span>)}
+            project.tools.map((tool, index) => (
+              <span key={index} className='pill'>
+                {tool}
+              </span>
+            ))}
         </div>
       </section>
       <section>
