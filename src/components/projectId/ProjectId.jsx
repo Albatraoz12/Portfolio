@@ -41,15 +41,18 @@ const ProjectId = ({ project }) => {
             ))}
         </div>
       </section>
-      <section>
+      <section className='links'>
         <a
           href={project.websiteLink ? project.websiteLink : project.githubLink}
           target='_blank'
           rel='noreferrer'
+          className='btn'
         >
           {project.websiteLink ? 'Visit site' : 'Visit Github'}
         </a>
-        <a href='/'>Go Back</a>
+        <a href='/' className='btn'>
+          Go Back
+        </a>
       </section>
     </>
   );
