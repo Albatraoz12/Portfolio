@@ -126,3 +126,23 @@ export const getDate = () => {
 
   return formattedDate;
 };
+
+// MY Skills array with function
+
+const skills = [
+  'HTML5',
+  'CSS3',
+  'Bootstrap',
+  'Tailwind',
+  'Javascript',
+  'React.JS',
+  'Next.JS13+',
+  'Angular',
+  'PHP',
+  'Laravel',
+  'GCP',
+];
+
+export const getSkills = () => {
+  return skills;
+};
