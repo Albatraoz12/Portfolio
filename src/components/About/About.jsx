@@ -1,6 +1,9 @@
+import { getSkills } from '../../lib/helperFunc';
+import Pill from '../Pill';
 import './about.scss';
 
 const About = () => {
+  const mySkills = getSkills();
   return (
     <section className='about-section'>
       <div className='about-container'>
@@ -28,6 +31,12 @@ const About = () => {
             with the ever-evolving needs of the industry and finding innovative
             solutions to meet them.
           </p>
+        </div>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        <div className='skills-container'>
+          <Pill obj={mySkills} />
         </div>
       </div>
     </section>
