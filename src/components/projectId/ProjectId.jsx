@@ -2,7 +2,6 @@ import './projectId.scss';
 
 /* eslint-disable react/prop-types */
 const ProjectId = ({ project }) => {
-  console.log(project);
   return (
     <>
       <section className='owerview-header'>
