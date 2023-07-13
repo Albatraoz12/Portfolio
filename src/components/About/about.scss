@@ -28,6 +28,15 @@
       }
     }
   }
+  .skills-container {
+    .pills-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  }
 }
 
 @include tablet {
@@ -39,15 +48,6 @@
     justify-items: center;
     .about-container {
       padding-inline: 2rem;
-    }
-    .skills-container {
-      .pills-container {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 2rem;
-        flex-wrap: wrap;
-      }
     }
   }
 }
