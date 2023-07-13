@@ -6,6 +6,10 @@
   padding: 5rem 0;
   width: 100%;
   color: $header-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   h1 {
     font-size: 22px;
     font-family: 'Silkscreen', cursive;
@@ -20,11 +24,19 @@
   p {
     padding-inline: 2rem;
   }
+  .btn {
+    margin-bottom: 0;
+    height: auto;
+  }
 }
 
 .project-owerview {
   margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   .project-image {
-    width: 80%;
+    width: 90%;
+    border-radius: 10px;
   }
 }

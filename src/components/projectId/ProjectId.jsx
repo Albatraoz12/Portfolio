@@ -7,6 +7,14 @@ const ProjectId = ({ project }) => {
       <section className='owerview-header'>
         <h1>{project.title}</h1>
         <p>{project.description}</p>
+        <a
+          href={project.websiteLink}
+          target='_blank'
+          className='btn'
+          rel='noreferrer'
+        >
+          Visit Site
+        </a>
       </section>
       <section className='project-owerview'>
         <figure>
