@@ -9,8 +9,9 @@ const ProjectId = ({ project }) => {
         <p>{project.description}</p>
       </section>
       <section className='project-owerview'>
-        <figure style={{ width: '100%' }}>
+        <figure>
           <img
+            className='project-image'
             src={`../${project.image}`}
             alt={`a image of the ${project.title} website`}
           />
