@@ -24,6 +24,10 @@ const ProjectId = ({ project }) => {
 
       <section>
         <h2>Tools</h2>
+        <div>
+          {project.tools &&
+            project.tools.map((tool, index) => <span key={index}>{tool}</span>)}
+        </div>
       </section>
       <section>
         <a
