@@ -16,6 +16,24 @@ const ProjectId = ({ project }) => {
             alt={`a image of the ${project.title} website`}
           />
         </figure>
+        <div className='overview-container'>
+          <h2>Project Overview</h2>
+          <p>{project.overview}</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Tools</h2>
+      </section>
+      <section>
+        <a
+          href={project.websiteLink ? project.websiteLink : project.githubLink}
+          target='_blank'
+          rel='noreferrer'
+        >
+          {project.websiteLink ? 'Visit site' : 'Visit Github'}
+        </a>
+        <a href='/'>Go Back</a>
       </section>
     </>
   );
