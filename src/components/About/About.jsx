@@ -8,14 +8,14 @@ const About = () => {
         <div className='about-wrapper'>
           <p className='about-paragraph'>
             I&apos;m a junior web developer who loves creating captivating user
-            experiences and solving intricate problems. As a recent graduate
-            from a vocational college, I&apos;m eager to apply my fresh
-            knowledge and skills to real-world projects.
+            experience and solving intricate problems. As a recent graduate from
+            Chas Academy, I&apos;m eager to apply my fresh knowledge and skills
+            to real-world projects.
           </p>
           <p className='about-paragraph'>
             Throughout my studies, I&apos;ve gained expertise in developing both
             the front-end and back-end of websites. I enjoy working
-            collaboratively with teams to deliver exceptional products that
+            collaboratively within teams to deliver exceptional products that
             leave a lasting impact. Whether it&apos;s coding responsive websites
             or building robust applications, I&apos;m determined to achieve
             excellence in every task.
