@@ -80,3 +80,33 @@
     margin: 2rem auto;
   }
 }
+
+@include tablet {
+  .project-owerview,
+  .tools-section {
+    width: 600px;
+  }
+}
+
+@include desktop {
+  .links {
+    .btn {
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        animation: weaveAnimation 0.5s forwards;
+      }
+    }
+  }
+}
+
+@keyframes weaveAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+    background-color: $header-secondary;
+    color: white;
+  }
+}
