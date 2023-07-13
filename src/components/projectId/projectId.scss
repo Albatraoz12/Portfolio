@@ -1,0 +1,112 @@
+@import '../../sass/variables.scss';
+
+.owerview-header {
+  background-color: $bg-color;
+  color: white;
+  padding: 5rem 0;
+  width: 100%;
+  color: $header-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  h1 {
+    font-size: 22px;
+    font-family: 'Silkscreen', cursive;
+    border-right: 5px solid;
+    width: 200px;
+    margin: 0 auto;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    animation: typing 4s steps(12), cursor 0.5s step-end infinite alternate;
+  }
+  p {
+    padding-inline: 2rem;
+  }
+  .btn {
+    margin-bottom: 0;
+    height: auto;
+  }
+}
+
+.project-owerview {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .project-image {
+    width: 90%;
+    border-radius: 10px;
+  }
+  .overview-container {
+    padding-inline: 1rem;
+    h2 {
+      margin: 1rem auto;
+      color: $header-secondary;
+      font-size: 28px;
+      font-family: 'Silkscreen', cursive;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+.tools-section {
+  .tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 1rem auto;
+
+    .pill {
+      padding: 0.3rem;
+      width: 90px;
+      background-color: grey;
+      font-weight: bold;
+      color: white;
+      border-radius: 10px;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  .btn {
+    margin-bottom: 0;
+    margin: 2rem auto;
+  }
+}
+
+@include tablet {
+  .project-owerview,
+  .tools-section {
+    width: 600px;
+  }
+}
+
+@include desktop {
+  .links {
+    .btn {
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        animation: weaveAnimation 0.5s forwards;
+      }
+    }
+  }
+}
+
+@keyframes weaveAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+    background-color: $header-secondary;
+    color: white;
+  }
+}

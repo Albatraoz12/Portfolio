@@ -1,12 +1,15 @@
 import { useParams } from 'react-router-dom';
+import { getProject } from '../lib/helperFunc';
+import ProjectId from '../components/projectId/ProjectId';
 
 const Project = () => {
-  // eslint-disable-next-line no-unused-vars
   const { title } = useParams();
+  const project = getProject(title);
+
   return (
-    <div>
-      <h1>{title}</h1>
-    </div>
+    <>
+      <ProjectId project={project} />
+    </>
   );
 };
 
