@@ -20,7 +20,7 @@
       flex-direction: column;
       gap: 40px;
 
-      p.about-paragraph {
+      .about-paragraph {
         text-align: start;
         font-size: 20px;
         line-height: 1.5em;
@@ -33,9 +33,16 @@
 @include tablet {
   .about-section {
     width: 100%;
-
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    align-items: center;
+    justify-items: center;
     .about-container {
       padding-inline: 2rem;
+    }
+    .skills-container {
+      display: flex;
+      flex-direction: column;
     }
   }
 }
