@@ -141,6 +141,10 @@ const skills = [
   'PHP',
   'Laravel',
   'GCP',
+  'MySQL',
+  'NoSQL',
+  'MongoDB',
+  'MariaDB',
 ];
 
 export const getSkills = () => {
