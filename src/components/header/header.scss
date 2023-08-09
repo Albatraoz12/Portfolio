@@ -114,6 +114,13 @@
         font-size: 68px;
         width: 1000px;
       }
+      .btn {
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          animation: weaveAnimation 0.5s forwards;
+        }
+      }
     }
 
     .hero-figure {
@@ -137,5 +144,16 @@
         font-size: 21px;
       }
     }
+  }
+}
+
+@keyframes weaveAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+    background-color: $header-secondary;
+    color: white;
   }
 }
