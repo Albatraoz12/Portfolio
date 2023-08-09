@@ -21,7 +21,7 @@ const Header = () => {
       </header>
       <figure className='hero-figure'>
         <img
-          src='desktop-image-small.jpg'
+          src='portfolio-bild.jpg'
           alt='Desktop setup with accessories'
           className='hero-image'
         />
