@@ -1,104 +1,104 @@
 // This will act as a database
 const projects = [
   {
-    title: 'Dtrain',
-    image: 'DTrain-sc.png',
+    title: "Dtrain",
+    image: "DTrain-sc.png",
     description:
-      'Dtran is the ultimate training databses, users can see training exercises and save exercises they like to keep',
+      "Dtran is the ultimate training databses, users can see training exercises and save exercises they like to keep",
     overview:
-      'Solo project showcasing full-stack web development skills. Used SCRUM, gitflow, and kanban for agile workflow. I used MERN stack and the project has a role system. Users can register, manage exercises, search, and save to personalized lists. Admins have user management and dashboard user creation capabilities.',
+      "Solo project showcasing full-stack web development skills. Used SCRUM, gitflow, and kanban for agile workflow. I used MERN stack and the project has a role system. Users can register, manage exercises, search, and save to personalized lists. Admins have user management and dashboard user creation capabilities.",
     tools: [
-      'React.js',
-      'MongoDb',
-      'Bootstrap',
-      'Agile',
-      'Git',
-      'Github',
-      'Gitflow',
-      'UX-Design',
-      'Figma',
+      "React.js",
+      "MongoDb",
+      "Bootstrap",
+      "Agile",
+      "Git",
+      "Github",
+      "Gitflow",
+      "UX-Design",
+      "Figma",
     ],
-    status: 'Online',
-    websiteLink: 'https://relaxed-raindrop-21bc84.netlify.app/',
-    githubLink: 'https://github.com/Albatraoz12/U09-Training-App',
+    status: "Online",
+    websiteLink: "https://relaxed-raindrop-21bc84.netlify.app/",
+    githubLink: "https://github.com/Albatraoz12/U09-Training-App",
   },
   {
-    title: 'Book Owl',
-    image: 'BookOwl-ss.png',
-    status: 'Online',
+    title: "Book Owl",
+    image: "BookOwl-ss.png",
+    status: "Online",
     description:
-      'Book owl is a book loan webiste where users can lend their books or borrow others books',
+      "Book owl is a book loan webiste where users can lend their books or borrow others books",
     overview:
-      'A group project with our teacher as the Product Owner, we practiced agile working using Scrum methodology and CI/CD. Employing the MERN stack, we developed a website that enables users to lend out their books to others or borrow a book from another user.',
+      "A group project with our teacher as the Product Owner, we practiced agile working using Scrum methodology and CI/CD. Employing the MERN stack, we developed a website that enables users to lend out their books to others or borrow a book from another user.",
     tools: [
-      'React.js',
-      'MongoDb',
-      'Bootstrap',
-      'Agile',
-      'Kanbann',
-      'Git',
-      'Github',
-      'Gitflow',
-      'UX-Design',
-      'Figma',
+      "React.js",
+      "MongoDb",
+      "Bootstrap",
+      "Agile",
+      "Kanbann",
+      "Git",
+      "Github",
+      "Gitflow",
+      "UX-Design",
+      "Figma",
     ],
-    websiteLink: 'https://bookowl-u08.netlify.app/',
+    websiteLink: "https://bookowl-u08.netlify.app/",
     githubLink:
-      'https://github.com/chas-academy/u08-business-idea-team1-bokmalarna',
+      "https://github.com/chas-academy/u08-business-idea-team1-bokmalarna",
   },
   {
-    title: 'Weather App',
-    image: 'WeatherApp-ss.png',
-    status: 'Online',
+    title: "Weather App",
+    image: "WeatherApp-ss.png",
+    status: "Online",
     description:
       "This website was built with React.js and CSS to displays the current weather for a user's location",
     overview:
       "This website was built with React.js and CSS to displays the current weather for a user's location, provides hourly weather forecasts for the next five hours, and also shows the weather forecast for the next five days.",
-    tools: ['React.js', 'CSS', 'Git', 'Github', 'UX-Design', 'Figma'],
-    websiteLink: 'https://stirring-profiterole-13cd77.netlify.app/',
-    githubLink: 'https://github.com/Albatraoz12/Weather-App',
+    tools: ["React.js", "CSS", "Git", "Github", "UX-Design", "Figma"],
+    websiteLink: "https://stirring-profiterole-13cd77.netlify.app/",
+    githubLink: "https://github.com/Albatraoz12/Weather-App",
   },
   {
-    title: 'Recipie App',
-    image: 'Recipie-ss.png',
-    status: 'Online',
+    title: "Recipie App",
+    image: "Recipie-ss.png",
+    status: "Online",
     description:
-      'Recipie App is a fullstack web application built with Angular for the frontend and Laravel as the backend',
+      "Recipie App is a fullstack web application built with Angular for the frontend and Laravel as the backend",
     overview:
-      'This is my first solo full-stack project, employing Angular for the frontend and Laravel for the backend. Bootstrap was utilized for styling. Regrettably, the backend is currently unavailable due to Heroku shutdown. Please refer to my GitHub repository for the source code.',
+      "This is my first solo full-stack project, employing Angular for the frontend and Laravel for the backend. Bootstrap was utilized for styling. Regrettably, the backend is currently unavailable due to Heroku shutdown. Please refer to my GitHub repository for the source code.",
     tools: [
-      'Angular',
-      'Bootstrap',
-      'Laravel',
-      'Git',
-      'Github',
-      'UX-Design',
-      'Figma',
+      "Angular",
+      "Bootstrap",
+      "Laravel",
+      "Git",
+      "Github",
+      "UX-Design",
+      "Figma",
     ],
-    websiteLink: 'https://vermillion-twilight-e4aac6.netlify.app/',
-    githubLink: 'https://github.com/Albatraoz12/Frontend-Angular',
+    websiteLink: "https://vermillion-twilight-e4aac6.netlify.app/",
+    githubLink: "https://github.com/Albatraoz12/Frontend-Angular",
   },
   {
-    title: 'LMDB',
-    image: 'image-not-found.png',
-    status: 'Offline',
+    title: "LMDB",
+    image: "image-not-found.png",
+    status: "Offline",
     description:
-      'Lobster Mobie Data Base a website to see, rate, comment on movies, save moves and much more!',
+      "Lobster Mobie Data Base a website to see, rate, comment on movies, save moves and much more!",
     overview:
-      'This was a group project where we practiced agile working with Scrum methodology, focused on UX. We utilized Laravel with a MySQL database as our tech stack. Figma was used for website design and creating the database structure. Regrettably, the backend is currently unavailable due to Heroku shutdown. Please refer to my GitHub repository for the source code',
+      "This was a group project where we practiced agile working with Scrum methodology, focused on UX. We utilized Laravel with a MySQL database as our tech stack. Figma was used for website design and creating the database structure. Regrettably, the backend is currently unavailable due to Heroku shutdown. Please refer to my GitHub repository for the source code",
     tools: [
-      'Laravel',
-      'Bootstrap',
-      'Agile',
-      'Kanbann',
-      'Git',
-      'Github',
-      'Gitflow',
-      'UX-Design',
-      'Figma',
+      "Laravel",
+      "Bootstrap",
+      "Agile",
+      "Kanbann",
+      "Git",
+      "Github",
+      "Gitflow",
+      "UX-Design",
+      "Figma",
     ],
-    websiteLink: '',
-    githubLink: 'https://github.com/Albatraoz12/u05-imdb-clone',
+    websiteLink: "",
+    githubLink: "https://github.com/Albatraoz12/u05-imdb-clone",
   },
 ];
 
@@ -113,38 +113,24 @@ export const getProject = (name) => {
   return project ? { ...project } : null;
 };
 
-//Gets the current weekday, month, date and year
-export const getDate = () => {
-  const d = new Date();
-  const options = {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
-  };
-  const formattedDate = d.toLocaleString('en-EN', options);
-
-  return formattedDate;
-};
-
 // MY Skills array with function
 
 const skills = [
-  'HTML5',
-  'CSS3',
-  'Bootstrap',
-  'Tailwind',
-  'Javascript',
-  'React.JS',
-  'Next.JS13+',
-  'Angular',
-  'PHP',
-  'Laravel',
-  'GCP',
-  'MySQL',
-  'NoSQL',
-  'MongoDB',
-  'MariaDB',
+  "HTML5",
+  "CSS3",
+  "Bootstrap",
+  "Tailwind",
+  "Javascript",
+  "React.JS",
+  "Next.JS13+",
+  "Angular",
+  "PHP",
+  "Laravel",
+  "GCP",
+  "MySQL",
+  "NoSQL",
+  "MongoDB",
+  "MariaDB",
 ];
 
 export const getSkills = () => {
