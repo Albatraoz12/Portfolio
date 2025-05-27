@@ -12,9 +12,19 @@ const Header = () => {
           captivating user experiences to life and tackle complex challenges
           head-on.
         </p>
-        <a href="#project-section" className="btn">
-          View Projects
-        </a>
+        <div className="hero-buttons">
+          <a href="#project-section" className="btn">
+            View Projects
+          </a>
+          <a
+            href="Dimosthenis Emmanouil CV EN.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            My resume
+          </a>
+        </div>
       </header>
       <figure className="hero-figure">
         <img

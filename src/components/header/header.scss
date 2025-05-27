@@ -12,6 +12,13 @@
     color: $header-color;
     padding-top: 1rem;
 
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+
     .hero-date {
       font-size: 9px;
       text-transform: uppercase;
@@ -135,6 +142,10 @@
 @include m {
   .hero-banner {
     .hero-header {
+      // .hero-buttons {
+      //   flex-direction: column;
+      //   gap: 0;
+      // }
       .hero-date {
         font-size: 9px;
         letter-spacing: 1.3em;
