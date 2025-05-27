@@ -1,4 +1,4 @@
-@import '../../sass/variables.scss';
+@import "../../sass/variables.scss";
 
 .hero-banner {
   width: 100%;
@@ -20,7 +20,7 @@
 
     .hero-title {
       font-size: 22px;
-      font-family: 'Silkscreen', cursive;
+      font-family: "Silkscreen", cursive;
       border-right: 5px solid;
       width: 85%;
       white-space: nowrap;
