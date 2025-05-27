@@ -1,8 +1,6 @@
-import { getDate } from "../../lib/helperFunc";
 import "./header.scss";
 
 const Header = () => {
-  const date = getDate();
   return (
     <div className="hero-banner">
       <header className="hero-header">
