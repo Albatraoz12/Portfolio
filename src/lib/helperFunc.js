@@ -1,6 +1,25 @@
 // This will act as a database
 const projects = [
   {
+    title: "Kleopatraem",
+    image: "kleopatraem.png",
+    description:
+      "A personal protfolio to showcase my wifes work as a UX/Designer",
+    overview:
+      "This project was for my wife to let her create a personal website where se could design it from scratch and where I could showcaste my skills to create her work",
+    tools: [
+      "NextJs 14+",
+      "Tailwind",
+      "Figma",
+      "UX/Design",
+      "Git",
+      "Github",
+      "Agile",
+    ],
+    status: "Online",
+    websiteLink: "https://www.kleopatraem.com/",
+  },
+  {
     title: "Dtrain",
     image: "DTrain-sc.png",
     description:
