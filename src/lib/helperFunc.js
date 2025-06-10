@@ -3,10 +3,9 @@ const projects = [
   {
     title: "Kleopatraem",
     image: "kleopatraem.png",
-    description:
-      "A personal protfolio to showcase my wifes work as a UX/Designer",
+    description: "A personal protfolio to showcase a UX/Designer work",
     overview:
-      "This project was for my wife to let her create a personal website where se could design it from scratch and where I could showcaste my skills to create her work",
+      "This project was for UX/Designer, She wanted to design her protfolio by her self and asked me to code it. In this way she can showcase her work online where I got the chance to work close to an UX/Designer to create a master pice",
     tools: [
       "NextJs 14+",
       "Tailwind",
